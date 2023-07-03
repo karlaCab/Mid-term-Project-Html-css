@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+  background-color: #faf8f1;
+}
+
+.svgFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoursSection {
+  background-color: #faf8f1;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.hoursSection {
+  text-align: center;
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+.hoursSection h1 {
+  font-size: 2.4rem;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+.hoursSection p {
+  margin-top: 35px;
+}
+
+.home {
+  position: relative;
+}
+
+.home img {
+  max-width: 100%;
+}
+
+.reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.reservation img {
+  border-radius: 50px;
+  margin: 25px;
+}
+
+.reservSec {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  background-color: #faf8f1;
+  position: absolute;
+  left: 29%;
+  top: 150%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.reservSec h2 {
+  margin: 40px;
+}
+
+.button {
+  color: #106e66;
+  font-weight: 500;
+  height: 55px;
+  width: 160px;
+  text-transform: uppercase;
+  border: 2%;
+  border-color: #106e66;
+  background-color: #faf8f1;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #106e66;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+footer {
+  margin-top: 450px;
+}
+
+.divFooter {
+  line-height: 2.5;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    left: 70px;
+  }
+  100% {
+    left: 80px;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    left: 70px;
+  }
+  100% {
+    left: 80px;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    left: 70px;
+  }
+  100% {
+    left: 80px;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    left: 70px;
+  }
+  100% {
+    left: 80px;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    left: 70px;
+  }
+  100% {
+    left: 80px;
+  }
+}

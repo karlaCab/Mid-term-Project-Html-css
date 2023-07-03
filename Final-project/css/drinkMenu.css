@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    user-select: none !important;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+small {
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+.logo {
+    width: 274.56px;
+    height: 47px;
+    color: black;
+    margin: 40px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 10% 25% 30% 25% 10%;
+    grid-template-rows: 2% all;
+}
+
+.subContent1 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 30px;
+}
+
+.subContent2 {
+    grid-column: 4;
+    grid-row: 1;
+    margin: 30px;
+}
+
+.line {
+    background-color: black;
+    width: 300px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.line p{ 
+    color: transparent;
+}
+
+.product {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.products {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wine {
+    display: grid;
+    grid-template-columns: 60% 13% 27%;
+    grid-template-rows: 100%;
+    text-transform: uppercase;
+}
+.wine span {
+    grid-column-start: 3;
+}
+
+span {
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.3;
+}
+
+.span {
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.3;
+}
+
+.lT {
+    font-size: 0.8rem;
+    width: 130px;
+    margin-top: 40px;
+}
+
+.foot {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    text-align: center;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 2% all;
+    }
+    .subContent1 {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 30px;
+    }
+    .subContent2 {
+        grid-column: 1;
+        grid-row: 50;
+        margin: 30px;
+    }
+    .foot {
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* .subContent1,
+    .subContent2 {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .wine {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+  
+    .wine span {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+    }
+  
+    .line {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    } */
+  }

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-image: url(/images/LIBR01.jpg);
+  background-size: cover;
+  z-index: 2;
+}
+
+footer {
+  background-color: #faf8f1;
+  z-index: 3;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-title {
+  margin-bottom: 4rem;
+  color: #407075;
+  font-weight: bold;
+}
+
+.menus {
+  background-color: #faf8f1 ;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: 6rem;
+  padding: 3rem 5rem;
+  border-radius: 20px;
+  border: 10px solid;
+  border-color:#407075;
+}
+.parrafo{
+  width: 420px;
+  height: 200px;
+  color:#272725;
+  font-weight: bold;
+ 
+}
+
+.copy-right {
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+}
+
+
+
+ .photos-link {
+    position: relative;
+    display: block;
+    width: 10rem;
+    padding: 1rem 0;
+    margin: 2rem 8rem;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #407075;
+  }
+  
+  .photos-link:before {
+    content: "";
+    position: center;
+    top: 0;
+    left: 0;
+    background: #407075;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+    transform: scale(0, 1);
+    
+    z-index: 2;
+  }
+  
+  .photos-link:hover:before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+  
+  .photos-link:hover {
+    color: #407075;
+  }
+  
+  .photos {
+    position: relative;
+    z-index: 3;
+    color: #407075;
+  }
+  
+  .photos-link:hover .photos {
+    color: black;
+  }
+  
